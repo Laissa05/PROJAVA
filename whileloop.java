@@ -6,5 +6,6 @@ public class whileloop {
         System.out.println(i);
         i++ ;
 }
+
     }
 }
