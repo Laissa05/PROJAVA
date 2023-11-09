@@ -17,21 +17,20 @@ class principal extends school {
     }
 }
 
-
 class Lecturers extends principal {
    public void members() {
         System.out.println("Lecturers: we provide the best lessons.");
     }
 }
-class Students extends Lecturers {
-    public void family() {
-        System.out.println("Students: WE aim to succeed.");
+class students extends Lecturers {
+    public void members() {
+        System.out.println("students: we aim to succeed.");
     }
 }
 
 public class inhertex2 {
     public static void main(String[] args) {
-        Students membA = new Students();
+        students membA = new students();
         Lecturers membB = new Lecturers(); 
         principal membC = new principal();
         school membD = new school();
@@ -40,4 +39,5 @@ public class inhertex2 {
         membC.members(); 
         membD.members(); 
     }
+    
 }
